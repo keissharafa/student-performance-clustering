@@ -13,7 +13,7 @@ def run_kmeans(
     input_path='data/output/cleaned_data.csv',
     assets_dir='assets/'
 ):
-    print("=== STEP 2: K-MEANS CLUSTERING (JALUR KEI) ===")
+    print("=== STEP 2: K-MEANS CLUSTERING ===")
     
     os.makedirs(assets_dir, exist_ok=True)
 
